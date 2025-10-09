@@ -1,0 +1,40 @@
+{
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "deREferencing",
+    "entryPoint": "dereferencing.py",
+    "version": "2025.9.24",
+    "idaVersions": ">=7.1",
+    "description": "New registers and stack views with dereferenced pointers, colors and other useful information",
+    "license": "GPL-3.0",
+    "categories": [
+      "debugging-and-tracing",
+      "ui-ux-and-visualization"
+    ],
+    "urls": {
+      "repository": "https://github.com/danigargu/deREferencing"
+    },
+    "authors": [
+      {
+        "name": "Daniel García",
+        "email": "danigargu@gmail.com"
+      }
+    ],
+    "keywords": [
+      "debugging",
+      "registers",
+      "stack-view",
+      "pointer-dereferencing",
+      "gdb-like",
+      "visualization",
+      "memory-analysis",
+      "reverse-engineering",
+      "x86",
+      "x86-64",
+      "arm",
+      "arm64",
+      "mips32",
+      "mips64"
+    ]
+  }
+}
